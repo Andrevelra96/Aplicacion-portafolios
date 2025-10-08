@@ -24,8 +24,10 @@ Tema_seleccionado=st.selectbox('selecciona un tema;', Temas)
 
 st.write('Has seleccionado:', Tema_seleccionado)
 
+
+
 if Tema_seleccionado=='Definición':
-    st.markdown('''**ANALISIS DE PORTAFOLIO DE INVERSIÓN:**
+    st.markdown('''**ANÁLISIS DE PORTAFOLIO DE INVERSIÓN:**
 
 Un Análisis de Portafolio de Inversión consiste en estudiar y evaluar el conjunto de activos financieros (acciones, bonos, bienes raíces, entre otros) en el que una persona o empresa ha invertido. El objetivo de este análisis es entender cómo se comportan esos activos, tanto en términos de riesgo como de rentabilidad.
 
@@ -37,7 +39,7 @@ que considerarse los siguientes elementos:
 
 Es la estimación de las ganancias que se espera obtener de las inversiones a lo largo del tiempo. Este rendimiento puede variar dependiendo de las condiciones del mercado, pero es importante proyectarlo para tomar decisiones informadas.
 
-- ***Riesgo***:Se refiere a la posibilidad de que los rendimientos no se den como se esperaba. En este contexto, se suelen usar herramientas estadísticas como la volatilidad (que mide las fluctuaciones de los precios de los activos), la varianza y la desviación estándar para cuantificar cuán impredecibles o inestables son los rendimientos.
+- ***Riesgo***: Se refiere a la posibilidad de que los rendimientos no se den como se esperaba. En este contexto, se suelen usar herramientas estadísticas como la volatilidad (que mide las fluctuaciones de los precios de los activos), la varianza y la desviación estándar para cuantificar cuán impredecibles o inestables son los rendimientos.
 
 Debe determinarse cuánto riesgo se está dispuesto a asumir.
 
@@ -134,20 +136,18 @@ El riesgo mide la incertidumbre sobre los rendimientos futuros. El riesgo puede 
 **En resumen,** el análisis de rentabilidad y riesgo permite a los inversionistas tomar decisiones informadas, balanceando los rendimientos esperados con los riesgos involucrados. La diversificación y la frontera eficiente son herramientas fundamentales para crear un portafolio equilibrado que maximice las ganancias sin asumir riesgos excesivos.
 
 ''')
-elif Tema_seleccionado=='Seleccion de la propuesta':
-    st.markdown('''**Seleccion de la propuesta**
+elif Tema_seleccionado=='Selección de la propuesta':
+    st.markdown('''**Selección de la propuesta**
 
-    **Diversificación y correlacción**
+    **Diversificación y correlación**
 
  Elegimos la propuesta de Diversificación y Correlación porque nos permite analizar cómo combinar diferentes activos para reducir el riesgo total del portafolio. Utilizaremos Python en Google Colab para calcular las correlaciones entre los activos y evaluar cómo la diversificación mejora la estabilidad del portafolio. Con librerías como NumPy, Pandas y Matplotlib, podremos analizar de manera eficiente las relaciones entre los activos, calcular métricas clave como el rendimiento esperado y la volatilidad, y visualizar los resultados, lo que nos ayudará a tomar decisiones más informadas en la construcción de un portafolio equilibrado.
     ''')
 elif Tema_seleccionado=='Herramienta':
     st.markdown('''**Herramientas de trabajo**
 Python en google Colab
-Github (para versionar y compartir el protecto''')
+Github (para versionar y compartir el proyecto''')
 elif Tema_seleccionado=='Referencias':
     st.markdown('''**Referencias**
-    https://hector.marinruiz.com.mx/wp-content/uploads/YMCAFCF03100414.pdf#page=14.10
-
-https://www.investopedia.com/terms/p/portfolio.asp''')
-
+  -  https://hector.marinruiz.com.mx/wp-content/uploads/YMCAFCF03100414.pdf#page=14.10
+ - https://www.investopedia.com/terms/p/portfolio.asp''')
