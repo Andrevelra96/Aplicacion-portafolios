@@ -139,7 +139,7 @@ El riesgo mide la incertidumbre sobre los rendimientos futuros. El riesgo puede 
 elif Tema_seleccionado=='Selección de la propuesta':
     st.markdown('''**Selección de la propuesta**
 
-    ***Diversificación y correlación**
+    **Diversificación y correlación**
 
  Elegimos la propuesta de Diversificación y Correlación porque nos permite analizar cómo combinar diferentes activos para reducir el riesgo total del portafolio. Utilizaremos Python en Google Colab para calcular las correlaciones entre los activos y evaluar cómo la diversificación mejora la estabilidad del portafolio. Con librerías como NumPy, Pandas y Matplotlib, podremos analizar de manera eficiente las relaciones entre los activos, calcular métricas clave como el rendimiento esperado y la volatilidad, y visualizar los resultados, lo que nos ayudará a tomar decisiones más informadas en la construcción de un portafolio equilibrado.
     ''')
